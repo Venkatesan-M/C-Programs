@@ -6,8 +6,7 @@ int main()
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         int f=fib(i);
-        printf("%d Number of this series is %d\n",i,f);
-        
+        printf("%d Number of this series is %d\n",i,f);  
     }
     return 0;
 }
